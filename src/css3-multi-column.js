@@ -75,6 +75,7 @@ function CSS3MultiColumn() {
 	     Purpose: To prevent cross-domain issues
 	
 		 return false
+		   If s.href is not present in the stylesheet object passed in
 		   If location.host is not present in the stylesheet URL OR
 		   If location.host isn't present in the first 50 characters of the stylesheet URL
 		     - This is good when you're using a service like TypeKit where your host may be
