@@ -72,7 +72,7 @@ function CSS3MultiColumn() {
 	// Asynchronous function. Call the 'callback' function when done.
 	function loadCssCache(s, callback) {
 		/*
-	     Purpose: To prevent corss-domain issues
+	     Purpose: To prevent cross-domain issues
 	
 		 return false
 		   If location.host is not present in the stylesheet URL OR
